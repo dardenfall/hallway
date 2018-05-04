@@ -1,0 +1,59 @@
+.body-container {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 0em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.empty-ground {
+  background: #313131;
+  width: 32px;
+  height: 32px;
+}
+
+.row div {
+    display: inline-block;
+  }
+
+.tree{
+  background-color: #313131;
+  background-image: url(/gifs/tree.gif);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+.hero{
+  background-color: #313131;
+  background-image: url(/gifs/smallchar.gif);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
